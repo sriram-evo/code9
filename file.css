@@ -102,6 +102,57 @@ width: 350px;
         flex-direction: column;
         gap: 20px;
         align-items: center;
+        margin: 70px 0px 10px;
+    }
+    /* .main{
+        margin: 0px 10px;
+    } */
+    .about-explain{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 20px;
+    }
+    .card{
+        width: 350px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    border-radius: 30px;
+    
+
+    }
+    .content{
+        margin: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+    hr{
+        width: 200px;
+        
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        margin: 40px 0px 10px 0px;
+    }
+    .cardImg{
+        width: 350px;
+        border-radius: 30px;
+    }
+    .card-in{
+        margin: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
     }
 
 
