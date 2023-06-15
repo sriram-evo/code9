@@ -88,5 +88,33 @@ width: 350px;
         left: -20px;
        
     }
+    .aboutlogo{
+        display: flex;
+        gap: 10px;
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+    .aboutImage{
+        width: 100%;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
 
+
+
+
+
+
+
+
+
+}
+@media  (min-width:481px){
+    body{
+        display: none;
+    }
 }
