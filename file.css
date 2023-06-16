@@ -1,5 +1,6 @@
 @media (max-width: 480px){
     *{
+        box-sizing: border-box;
         font-family: 'Rubik', sans-serif;
         margin: 0;
         padding: 0;
@@ -33,8 +34,9 @@ flex-grow: 1;
     .logo{
         display: flex;
 flex-direction: column;
-padding: 10px 0px;
+padding: 10px 10px;
 font-size: 1.2em;
+border: 2px solid black;
 
     }
     .fa-bars{
@@ -154,7 +156,71 @@ width: 350px;
         gap: 20px;
         justify-content: center;
     }
-
+    .inputField{
+        display: flex;
+        background: rgba(40, 40, 40, 0.52);
+    }
+    .inputs{
+        padding: 10px;
+        font-size: 1em;
+        border: none;
+        display: flex;
+        width: 100%;
+        border-radius: 0px 10px 10px 0px ;
+    }
+    .fa-user,.fa-envelope,.fa-address-book{
+        font-size: 2em;
+        padding: 10px;
+        color: white;
+    }
+    .inputField{
+        
+       width: 300px;
+        border-radius: 10px;
+        /* background-color: black; */
+        
+    }
+    label{
+        background-color: #A1A1A1;
+        color: white;
+        border-radius: 10px  0px 0px 10px;
+    }
+    .contact{
+        background: #333333;
+        color: #B0B0B0;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+        
+        
+    }
+    .form-btn{
+        width: 300px;
+        background-color: #FFDD65;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 10px;
+       
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        gap: 20px;
+        margin-top: 30px;
+        margin-left: 16px;
+        
+       
+    }
+    input:focus{
+        border: none;
+    }
 
 
 
